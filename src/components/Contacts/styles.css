@@ -1,0 +1,72 @@
+#container {
+    width: 400px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px; /* Köşeleri yuvarlama */
+    backdrop-filter: blur(10px); /* Flu efekt */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    background: url('./img/bg.jpg') no-repeat center center; /* Yerel dosya yolu */
+    background-size: cover; /* Resmi kapsayacak şekilde ayarla */
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* İnce bir çerçeve */
+    border-radius: 5px; /* Köşeleri yuvarlama */
+    background: rgba(255, 255, 255, 0.7); /* Şeffaf arka plan */
+    margin-bottom: 10px;
+   
+}
+
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list {
+    margin: 15px;
+}
+
+.list > li {
+    background: rgba(255, 255, 255, 0.9); /* Şeffaf beyaz */
+    padding: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px; /* Köşeleri yuvarlama */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    color:black ;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0px 10px 10px;
+
+}
+
+.btn > button {
+    padding: 5px;
+    border: none;
+    border-radius: 5px; /* Köşeleri yuvarlama */
+    background-color:rgb(38, 43, 48) ;/* Yeşil buton */
+    color: white; /* Yazı rengi beyaz */
+    cursor: pointer; /* Tıklanabilir işaretçi */
+    transition: background-color 0.3s; /* Renk geçişi */
+}
+
+.btn > button:hover {
+    background-color:black; /* Hover efekti */
+}
+
+/* Arka plan resmi */
+body {
+   
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
